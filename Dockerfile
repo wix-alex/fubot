@@ -6,8 +6,12 @@ ENV  HUBOT_FB_PASSWORD=<your_password_here>
 
 EXPOSE 80
 
+# clone latest hubot
 ADD https://api.github.com/repos/github/hubot/compare/master...HEAD /dev/null
 RUN git clone https://github.com/github/hubot /hubot
+
+# copy over user scripts
+COPY ./scripts/* /hubot/scripts
 
 WORKDIR /hubot
 
