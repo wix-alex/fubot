@@ -1,5 +1,8 @@
 # fubot
-hubot support for facebook messenger within a docker container.
+hubot support for facebook user accounts from a docker container.
+
+You can add any hubot scripts you want into the scripts folder and they'll get copied over when you build the container. 
+
 
 ## installation
 
@@ -16,5 +19,4 @@ Once that's done, run the following commands to build and run the image.
 docker build -t fubot . && docker run fubot
 ```
 
-You're free to write and add any scripts you want in the scripts folder and they'll be copied over to hubot within the container. 
-
+You can also very easily port this to resin.io if you're interested in that sort of stuff.
