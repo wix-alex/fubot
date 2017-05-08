@@ -3,6 +3,7 @@ hubot support for facebook user accounts from a docker container.
 
 You can add any hubot scripts you want into the scripts folder and they'll get copied over when you build the container. 
 
+Yes, facebook has a Messenger Bots api, but you can't use it to create anything for individual facebook user accounts. This package will allow you to do just that. 
 
 ## installation
 
