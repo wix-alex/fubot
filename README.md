@@ -26,9 +26,22 @@ Next you want to go on facebook messenger and message your user account a specif
 fubot ping
 ```
 
+### running locally
+
+Alternatively you can run this bot by exporting a few variables with the credentials for the facebook user account. I personally keep them in a separate file that gets sourced on my shell. 
+
+Just make sure these variables exist in the environment trying to run fubot. 
+
+```shell
+# do not share these
+export HUBOT_FB_USERNAME="<FB_USERNAME>"
+export HUBOT_FB_PASSWORD="<FB_PASSWORD>"
+```
+
+## Testing if it's running. 
 It should respond `PONG`. If you get that back you're all set! Good luck and have fun!
 
-You can also very easily port this to resin.io if you're interested in that sort of stuff. It's on the roadmap
+Now simply make edits to the examples sitting inside the `scripts` directory. 
 
 
-Also on [Docker Hub](https://hub.docker.com/r/davidawad/fubot/)!
+[Also on Docker Hub](https://hub.docker.com/r/davidawad/fubot/)!
