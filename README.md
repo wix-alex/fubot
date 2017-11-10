@@ -38,7 +38,15 @@ Just make sure these variables exist in the environment trying to run fubot.
 # do not share these
 export HUBOT_FB_USERNAME="<FB_USERNAME>"
 export HUBOT_FB_PASSWORD="<FB_PASSWORD>"
+
+npm install
+
+# run these from within the fubot directory
+./bin/hubot -a messenger 
 ```
+
+
+
 
 ## Testing if it's running. 
 It should respond `PONG`. If you get that back you're all set! Good luck and have fun!
