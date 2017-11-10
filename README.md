@@ -35,13 +35,12 @@ Alternatively you can run this bot by exporting a few variables with the credent
 Just make sure these variables exist in the environment trying to run fubot. 
 
 ```shell
-# do not share these
+# run these from within the fubot directory
 export HUBOT_FB_USERNAME="<FB_USERNAME>"
 export HUBOT_FB_PASSWORD="<FB_PASSWORD>"
 
 npm install
 
-# run these from within the fubot directory
 ./bin/hubot -a messenger 
 ```
 
