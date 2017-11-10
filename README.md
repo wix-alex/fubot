@@ -1,6 +1,8 @@
 # fubot
 hubot support for facebook user accounts from a docker container.
 
+Note that this is separate from the facebook messenger api. That bots api only applies to facebook pages, this allows you to create a bot for a facebook user account. 
+
 You can add any hubot scripts you want into the scripts folder and they'll get copied over when you build the container. 
 
 Facebook has a Messenger Bots api, but you can't use it to create anything for individual facebook user accounts. This package will allow you to do just that. 
